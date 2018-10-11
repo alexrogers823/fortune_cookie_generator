@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  /* background-color: dodgerblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* outline: 1px solid yellow; */
+  height: 100%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* body > * {
+  outline: 1px solid magenta;
+} */
+
+.quoteDisplay {
+  /* height: 30px; */
+  font-size: 18px;
+}
+
+.buttonContainer {
+  text-align: center;
+}
